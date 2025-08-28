@@ -11,5 +11,6 @@ OR
 * Explanation:
 
 -E enables extended regex.
+
 s/^$$([0-9]+)$$/[\1]/ looks for (number) at the start of a line and replaces with [number].
 Output is saved to bib_sqbrack.
